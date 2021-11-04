@@ -20,5 +20,5 @@ ds <- function(x){
              mean = mean(x),
              max = max(x),
              sd = sd(x),
-             range = max - min
+             range = max(x) - min(x)
 }
